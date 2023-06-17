@@ -32,7 +32,7 @@ public class FelineTest {
     }
 
     @Test
-    public void testGetFamily() {
+    public void getFamily() {
         Feline feline = new Feline();
         String expectedFamily = "Кошачьи";
 
@@ -42,7 +42,7 @@ public class FelineTest {
     }
 
     @Test
-    public void testGetKittens() {
+    public void getKittens() {
         Feline feline = new Feline();
         int expectedKittens = 1;
 
@@ -52,7 +52,7 @@ public class FelineTest {
     }
 
     @Test
-    public void testGetKittensWithCount() {
+    public void getKittensWithCount() {
         Feline feline = new Feline();
         int expectedKittens = 3;
         int kittensCount = 3;

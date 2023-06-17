@@ -18,7 +18,7 @@ public class CatTest {
     private Feline mockFeline;
 
     @Test
-    public void testGetSound() {
+    public void getSound() {
         Cat cat = new Cat(mockFeline);
         String expectedSound = "Мяу";
 
@@ -28,7 +28,7 @@ public class CatTest {
     }
 
     @Test
-    public void testGetFood() throws Exception {
+    public void getFood() throws Exception {
         Cat cat = new Cat(mockFeline);
         List<String> expectedFood = Arrays.asList("мясо1", "мясо2");
 

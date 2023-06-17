@@ -18,7 +18,7 @@ public class LionTest {
     private Feline mockFeline;
 
     @Test
-    public void testGetKittens() throws Exception {
+    public void getKittens() throws Exception {
 
         Lion lion = new Lion("Самец", mockFeline);
 
@@ -29,7 +29,7 @@ public class LionTest {
     }
 
     @Test
-    public void testDoesHaveMane_Samec() throws Exception {
+    public void doesHaveManeMale() throws Exception {
 
         Lion lion = new Lion("Самец", mockFeline);
 
@@ -38,7 +38,7 @@ public class LionTest {
     }
 
     @Test
-    public void testDoesHaveMane_Samka() throws Exception {
+    public void doesHaveManeFemale() throws Exception {
 
         Lion lion = new Lion("Самка", mockFeline);
 
@@ -47,7 +47,7 @@ public class LionTest {
     }
 
     @Test
-    public void testGetFood() throws Exception {
+    public void getFood() throws Exception {
 
         Lion lion = new Lion("Самец", mockFeline);
 
